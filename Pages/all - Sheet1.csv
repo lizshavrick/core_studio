@@ -1,0 +1,64 @@
+Name,foot,number_toe,polish,age,image,floor_texture,sock_color
+Reiko,right,pinky,green,19,,wood,blue
+Reiko,right,ring,green,19,,wood,blue
+Reiko,right,middle,green,19,,wood,blue
+Reiko,right,pointer,green,19,,wood,blue
+Reiko,right,big,green,19,,wood,blue
+Reiko,left,pinky,green,19,,wood,blue
+Reiko,left,ring,green,19,,wood,blue
+Reiko,left,middle,green,19,,wood,blue
+Reiko,left,pointer,green,19,,wood,blue
+Reiko,left,big,green,19,,wood,blue
+Kirsten,right,pinky,no,20,,slippery tile,black
+Kirsten,right,ring,no,20,,slippery tile,black
+Kirsten,right,middle,no,20,,slippery tile,black
+Kirsten,right,pointer,no,20,,slippery tile,black
+Kirsten,right,big,no,20,,slippery tile,black
+Kirsten,left,pinky,no,20,,slippery tile,black
+Kirsten,left,ring,no,20,,slippery tile,black
+Kirsten,left,middle,no,20,,slippery tile,black
+Kirsten,left,pointer,no,20,,slippery tile,black
+Kirsten,left,big,no,20,,slippery tile,black
+Mia,right,pinky,no,20,,small tile,tan
+Mia,right,ring,no,20,,small tile,tan
+Mia,right,middle,no,20,,small tile,tan
+Mia,right,pointer,no,20,,small tile,tan
+Mia,right,big,no,20,,small tile,tan
+Mia,left,pinky,no,20,,small tile,tan
+Mia,left,ring,no,20,,small tile,tan
+Mia,left,middle,no,20,,small tile,tan
+Mia,left,pointer,no,20,,small tile,tan
+Mia,left,big,no,20,,small tile,tan
+simon,right,pinky,no,21,,carpet,red
+simon,right,ring,no,21,,carpet,red
+simon,right,middle,no,21,,carpet,red
+simon,right,pointer,no,21,,carpet,red
+simon,right,big,no,21,,carpet,red
+simon,left,pinky,no,21,,carpet,red
+simon,left,ring,no,21,,carpet,red
+simon,left,middle,no,21,,carpet,red
+simon,left,pointer,no,21,,carpet,red
+simon,left,big,no,21,,carpet,red
+ethan,right,pinky,no,19,,cold river water,white
+ethan,right,ring,no,19,,cold river water,white
+ethan,right,middle,no,19,,cold river water,white
+ethan,right,pointer,no,19,,cold river water,white
+ethan,right,big,no,19,,cold river water,white
+ethan,left,pinky,no,19,,cold river water,white
+ethan,left,ring,no,19,,cold river water,white
+ethan,left,middle,no,19,,cold river water,white
+ethan,left,pointer,no,19,,cold river water,white
+ethan,left,big,no,19,,cold river water,white
+matt,right,pinky,no,20,,sand,white
+matt,right,ring,no,20,,sand,white
+matt,right,middle,no,20,,sand,white
+matt,right,pointer,no,20,,sand,white
+matt,right,big,no,20,,sand,white
+matt,left,pinky,shimmer,20,,sand,white
+matt,left,ring,shimmer,20,,sand,white
+matt,left,middle,shimmer,20,,sand,white
+matt,left,pointer,shimmer,20,,sand,white
+matt,left,big,shimmer,20,,sand,white
+jess,,,,19,,fluffy carpet,white
+karen,,,,20,,hardwood floor,purple
+mia hasak,,,,19,,fluffy carpet,green
