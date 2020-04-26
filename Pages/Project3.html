@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>foot</title>
+</head>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+
+#myImage {
+	width: 100%;
+	position: relative;
+}
+.btn {
+width: 320px;
+height: 150px;
+background-color: white;
+bottom: 1%;
+justify-content: center;
+align-content: center;
+z-index: 10;
+position: absolute;
+font-family: 'Playfair', serif;
+margin-left: -160px;
+border: solid #E29EDA;
+}
+
+input {
+font-family: 'Playfair', serif;
+font-size: 3.5em;
+font-weight: 700px;
+align-content: center;
+z-index: 10;
+position: absolute;
+justify-content: center;
+color: #E29EDA;
+}
+
+.btn: hover {
+border: solid black;
+}
+
+input: hover {
+	color: black;
+}
+
+}
+
+</style>
+
+
+<body>
+
+
+
+    <img src="https://cdn.glitch.com/0f288aa1-a4a2-4f6b-87a7-69e0e312f74b%2Fleft%20white_1000.png?v=1587778184412" id="myImage" class="foot">
+    <center>
+    <input class="btn" type="button" onclick="changeImage()" onclick="changeImageBack()" value="Dance"> </center>
+   
+
+    <script>
+
+
+        function changeImage() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("https://cdn.glitch.com/57d227c6-1ace-4513-84bc-0cc6df4b38ac%2Fleftwhite1.gif?v=1587867008621")) {
+                image.src = "https://cdn.glitch.com/0f288aa1-a4a2-4f6b-87a7-69e0e312f74b%2Fleft%20white_1000.png?v=1587778184412";
+            }
+            else {
+                image.src = "https://cdn.glitch.com/57d227c6-1ace-4513-84bc-0cc6df4b38ac%2Fleftwhite1.gif?v=1587867008621";
+            }
+
+        }
+function changeImageBack() {
+            var image = document.getElementById('myImage2');
+
+            if (image.src.match("https://cdn.glitch.com/57d227c6-1ace-4513-84bc-0cc6df4b38ac%2Fleftwhite1.gif?v=1587867008621")) {
+                image.src = "https://cdn.glitch.com/57d227c6-1ace-4513-84bc-0cc6df4b38ac%2Fleftwhite1.gif?v=1587867008621";
+                 }
+            else {
+                image.src = "https://cdn.glitch.com/0f288aa1-a4a2-4f6b-87a7-69e0e312f74b%2Fleft%20white_1000.png?v=1587778184412";
+            }
+
+    //         function setColor(btn, color){
+    // var count=1;
+    // var property = document.getElementById(btn);
+    // if (count == 0){
+    //     property.style.backgroundColor = "#FFFFFF"
+    //     count=1;        
+    // }
+    // else{
+    //     property.style.backgroundColor = "#7FFF00"
+    //     count=0;
+    // }
+
+            }
+        
+    </script>
+
+
+</div>
+
+
+</body>
+</html>
