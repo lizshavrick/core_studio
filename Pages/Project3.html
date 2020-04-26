@@ -54,7 +54,52 @@ input: hover {
 }
 
 }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 
+    	#myImage {
+	width: 110%;
+	position: relative;
+}
+.btn {
+width: 320px;
+height: 150px;
+background-color: white;
+bottom: 1%;
+justify-content: center;
+align-content: center;
+z-index: 10;
+position: absolute;
+font-family: 'Playfair', serif;
+margin-left: -160px;
+border: solid #E29EDA;
+border-radius: 0px;
+}
+
+input {
+font-family: 'Playfair', serif;
+font-size: 3.5em;
+font-weight: 700px;
+align-content: center;
+z-index: 10;
+position: absolute;
+justify-content: center;
+color: #E29EDA;
+border-radius: 0px;
+background-color: white;
+}
+
+.btn: hover {
+border: solid black;
+}
+
+input: hover {
+	color: black;
+}
+
+}
 </style>
 
 
