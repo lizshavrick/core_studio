@@ -13,21 +13,34 @@
     and (-webkit-device-pixel-ratio : 3) { 
 
 
-#myImage {
-	width: 100%;
-	position: relative;
-}
-
-
-
-input: hover {
-	color: black;
-}
 #myDIV img {
-z-index: 90;
+	z-index: 90;
 width: 100%;
 top:0px;
 position: relative;
+}
+#myImage img{
+	width: 100%;
+	position: inline;
+	z-index: 6;
+}
+	
+
+#button {
+	font-family: 'Playfair', serif;
+font-size: 3.5em;
+font-weight: 700px;
+align-content: center;
+z-index: 99;
+position: absolute;
+color: #E29EDA;
+border-radius: 0px;
+background-color: white;
+border: solid #E29EDA;
+padding: .5em;
+margin-left: 39%;
+margin-top: 24.5em;
+
 }
 
 }
@@ -36,18 +49,34 @@ position: relative;
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
-    	#myImage {
-	width: 100%;
-	position: inline;
-	z-index: 6;
-}
-
-
-#myDIV img {
+    	#myDIV img {
 	z-index: 90;
 width: 100%;
 top:0px;
 position: relative;
+}
+#myImage img{
+	width: 100%;
+	position: inline;
+	z-index: 6;
+}
+	
+
+#button {
+	font-family: 'Playfair', serif;
+font-size: 3.5em;
+font-weight: 700px;
+align-content: center;
+z-index: 99;
+position: absolute;
+color: #E29EDA;
+border-radius: 0px;
+background-color: white;
+border: solid #E29EDA;
+padding: .5em;
+margin-left: 39%;
+margin-top: 24.5em;
+
 }
 
 }
@@ -85,7 +114,7 @@ background-color: white;
 border: solid #E29EDA;
 padding: .5em;
 margin-left: 39%;
-margin-top: 23em;
+margin-top: 24.5em;
 
 }
 
@@ -98,7 +127,7 @@ margin-top: 23em;
 
 <div id="button" onclick="myFunction()">Dance</div> 
 
-<div id="myDIV"> 
+<div id="myDIV" class="myDiv"> 
   <img src="https://cdn.glitch.com/0f288aa1-a4a2-4f6b-87a7-69e0e312f74b%2Fleft%20white_1000.png?v=1587778184412">
 </div>
 
