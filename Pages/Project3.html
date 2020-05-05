@@ -199,6 +199,7 @@ function togglePlay() {
     myAudio.pause()
   } else {
     myAudio.play();
+    audio.autoplay = true;
   }
 };
 myAudio.onplaying = function() {
