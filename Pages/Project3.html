@@ -191,7 +191,7 @@ margin-top: 24.5em;
 };
 
 
-var myAudio = document.getElementById("myAudio");
+var myAudio = document.getElementById("myAudio").preload; 
 var isPlaying = false;
 
 function togglePlay() {
@@ -203,6 +203,7 @@ function togglePlay() {
 };
 myAudio.onplaying = function() {
   isPlaying = true;
+  audio.autoplay = true;
 };
 myAudio.onpause = function() {
   isPlaying = false;
